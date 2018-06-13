@@ -1,0 +1,14 @@
+<table class="table">
+    <thead>
+        <th> No </th>
+        <th> ID </th>
+    </thead>
+    <tbody>
+        <% @users.each do |user| %>
+        <tr>
+            <td><%= user[0] %></td>
+            <td><%= user[1] %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>

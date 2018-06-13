@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <th> 글번호 </th>
+        <th> 제목 </th>
+        <th> 보러가기 </th>
+    </thead>
+    <tbody>
+        <% @boards.each do |boards| %>
+        <tr>
+            <td><%= boards[0] %></td>
+            <td><%= boards[1] %></td>
+            <td><%= boards[2] %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
